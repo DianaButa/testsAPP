@@ -1,0 +1,39 @@
+.tests-container {
+    padding: 1rem;
+    margin-bottom: 70px;
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+    }
+  
+    .subjects-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  
+    .subject-card {
+      cursor: pointer;
+      border-radius: 12px;
+      padding: 1.2rem;
+      height: auto;
+      transition: transform 0.2s, box-shadow 0.2s;
+  
+      &:active {
+        transform: scale(0.98);
+      }
+  
+      mat-card-title {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+      }
+  
+      p {
+        font-size: 1rem;
+        margin: 0;
+        line-height: 1.4;
+      }
+    }
+  }
